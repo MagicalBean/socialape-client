@@ -90,9 +90,9 @@ class Scream extends Component {
           </span>
         );
       }
+    } else {
+      bodyComponent = <span>{body}</span>;
     }
-
-    console.log(bodyComponent);
 
     return (
       <Card className={classes.card}>
